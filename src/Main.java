@@ -51,6 +51,8 @@ public class Main {
         System.out.println("Exercise 6 - This is the result of remainder of two numbers");
         System.out.println(moduloRest(300, 549));
 
+        conversionHell(2004,24,7,1);
+
         double a = 5006;
         double b = 795;
         double c = 465;
