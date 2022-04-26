@@ -39,8 +39,44 @@ public class Main {
         System.out.println("Result from dividing 2 numbers together");
         System.out.println(divide(456, 45));
         printJava();
+
+        System.out.println("This is USA inches to Global Centimeters conversion");
+        System.out.println(convertImperialToMetric(13));
+
+        System.out.println("This is Fahrenheit to Celcius conversion");
+        System.out.println(convertTemp(70));
+
+        System.out.println("This is the result of remainder of two numbers");
+        System.out.println(moduloRest(300, 549));
+
+        double a = 5006;
+        double b = 795;
+        double c = 465;
+
+        System.out.println("This shows 3 numbers added and average of them");
+        System.out.println(averageNumbers(a, b, c));
     }
 
+    public static double averageNumbers(double nr1, double nr2, double nr3) {
+        double result = (nr1 + nr2 + nr3) / 3;
+        return result;
+    }
+
+    public static double moduloRest(double x, double y) {
+        double result = x % y;
+        return result;
+    }
+
+    public static double convertImperialToMetric(double imperialLength) {
+        double centimeter = imperialLength * 2.54;
+        return centimeter;
+
+    }
+
+    public static double convertTemp(double fahrenheit) {
+        double celcius = (5 / 9f * (fahrenheit - 32));
+        return celcius;
+    }
 
     public static void printJava() {
         System.out.println("   J   A   V     V     A");
