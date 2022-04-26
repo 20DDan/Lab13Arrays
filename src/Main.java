@@ -4,6 +4,16 @@ public class Main {
         System.out.println("This Is My First JAva Project ... NOT!");
         System.out.println("Hello World!");
 
+
+        System.out.println("Lab 11 Exercise 3 Check Bigger Number");
+        LogicalOperations op = new LogicalOperations();
+        double grandest = op.checkBiggerNumber(5,9000);
+        float massive = op.checkBiggerNumber(10001,-900000);
+        int biggest = op.checkBiggerNumber(56,51);
+        System.out.println(biggest);
+        System.out.println(massive);
+        System.out.println(grandest);
+
         String Mihai;
         String Ionel;
         String Ghita;
@@ -11,6 +21,8 @@ public class Main {
         System.out.println(" Mihai &" + " Ionel &" + " Gusti" + " toti au mers la piata");
 
         Calculator myCalculator = new Calculator();
+
+
 
         double A = 57;
         double B = 4;
