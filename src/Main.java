@@ -75,13 +75,20 @@ public class Main {
         System.out.println(averageNumbers(a, b, c));
     }
 
+
+    //LAB 11 EXERCISE 4 Text Comparison
+
     public static String textComparison(String text) {
+        String first = "FastTrackIT";
+        String second = "Text 2";
+
         if (text.equals("FastTrackIT")) {
             return "Learning text comparison";
-
         } else
 
             return "Got to try some more";
+
+
     }
 
 
